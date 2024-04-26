@@ -35,7 +35,7 @@ const Clinic = ({ name, address, distance }: ClinicItemProps) => {
         } duration-300`}
       >
         <div className={`px-4 text-left`}>
-          {address} <br /> {distance}
+          {address} <br /> {distance} Meter dari lokasi kamu
         </div>
       </div>
     </div>
